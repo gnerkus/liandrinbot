@@ -1,11 +1,23 @@
-# slack-sample-cli
+# Liandrin Bot
 
-Sample app to work with [slack-terminalize](https://www.npmjs.com/package/slack-terminalize "slack terminalize at npm") with some basic custom commands
+A digital representation of Lady Liandrin, this bot holds a wealth of knowledge about Hearthstone.
 
-# Setup
+### Install
+```shell
+npm install
+```
 
-- Run `npm install` to install the dependencies
-- Paste the `xoxb-token` of your bot integration in `init` function inside `index.js` file
-- Run `node .` to start the app. Now the bot should be listening to the slack team you integrated it with
-- Invite the bot to desired channels with `/invite @<your-bot-name>` and try the sample commands
-- Start with `help` in the channel the bot is listening to
+### Create app on Heroku
+```shell
+heroku apps:create <app-name>
+```
+
+### Configure
+```shell
+heroku config:set LIANDRIN_SLACK_API_TOKEN=<slack-token>
+```
+
+### Deploy
+```shell
+git push heroku master
+```

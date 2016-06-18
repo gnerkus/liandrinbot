@@ -1,26 +1,38 @@
 {
-  "name": "slack-sample-cli",
+  "name": "liandrinbot",
   "version": "1.0.0",
-  "description": "Sample app to show working with slack-terminalize module",
-  "main": "index.js",
+  "description": "Digital representation of the blood elf paladin, Liandrin.",
+  "main": "src/index.js",
   "dependencies": {
-    "request": "^2.65.0",
-    "slack-terminalize": "^1.0.0"
+    "body-parser": "1.15.1",
+    "botkit": "0.2.1",
+    "express": "4.14.0",
+    "hearthstone-db": "1.0.2",
+    "lodash": "4.13.1",
+    "slack": "7.3.0"
+  },
+  "author": {
+    "email": "ifeanyioraelosi@gmail.com",
+    "name": "Ifeanyi Oraelosi",
+    "url": "https://twitter.com/gnerkus"
   },
   "scripts": {
+    "start": "node ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.paypal.com:gnramesh/slack-sample-cli.git"
+    "url": "https://gnerkus@github.com/gnerkus/liandrinbot.git"
   },
   "engines": {
-    "node": "0.12.x"
+    "node": "5.7.1"
   },
   "keywords": [
     "slack",
-    "terminal"
+    "hearthstone",
+    "bot",
+    "slack-bot"
   ],
-  "author": "Gaurav Ramesh",
+  "author": "Ifeanyi Oraelosi",
   "license": "MIT"
 }
