@@ -21,3 +21,8 @@ heroku config:set LIANDRIN_SLACK_API_TOKEN=<slack-token>
 ```shell
 git push heroku master
 ```
+
+### Usage
+```
+@liandrin card Thrall
+```
