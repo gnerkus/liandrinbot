@@ -7,15 +7,11 @@
     "body-parser": "1.15.1",
     "botkit": "0.2.1",
     "express": "4.14.0",
-    "hearthstone-db": "1.0.2",
+    "hearthstone-db": "1.0.3",
     "lodash": "4.13.1",
     "slack": "7.3.0"
   },
-  "author": {
-    "email": "ifeanyioraelosi@gmail.com",
-    "name": "Ifeanyi Oraelosi",
-    "url": "https://twitter.com/gnerkus"
-  },
+  "author": "Ifeanyi Oraelosi",
   "scripts": {
     "start": "node ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,6 +29,5 @@
     "bot",
     "slack-bot"
   ],
-  "author": "Ifeanyi Oraelosi",
   "license": "MIT"
 }
