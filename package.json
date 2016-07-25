@@ -1,7 +1,7 @@
 {
   "name": "liandrinbot",
   "version": "1.0.0",
-  "description": "Digital representation of the blood elf paladin, Liandrin.",
+  "description": "Hearthstone PA for your Slack organization.",
   "main": "src/index.js",
   "dependencies": {
     "body-parser": "1.15.1",
