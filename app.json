@@ -1,0 +1,7 @@
+{
+  "name": "Liandrin Bot",
+  "description": "Hearthstone PA for your Slack organization.",
+  "repository": "https://github.com/gnerku/liandrinbot",
+  "logo": "",
+  "keywords": ["hearthstone", "slack", "bot"]
+}
